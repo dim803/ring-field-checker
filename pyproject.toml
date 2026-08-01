@@ -1,0 +1,12 @@
+[project]
+name = "ring-field-checker"
+version = "0.1.0"
+description = "Classifies finite algebraic structures (magma through field) from Cayley tables"
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
