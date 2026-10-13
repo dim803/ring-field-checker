@@ -115,7 +115,7 @@ ring-field-checker/
 └── tests/
 ```
 
-## Known limitations
+##Limitations
 
 - Classification assumes the *same* multiplicative identity check applies globally; it does
   not attempt to find a subring or handle a table where identity-like behavior only holds on
@@ -126,10 +126,3 @@ ring-field-checker/
 - The checker classifies structures given a *complete* table; it does not attempt to
   reconstruct or validate a partially-specified operation.
 
-## Possible extensions
-
-- Vector space / module axiom checking, given a ring and an abelian group with a scalar
-  action
-- A search mode: given a partial table, find completions that satisfy a target structure
-  (e.g. "complete this into a group")
-- Ideal detection in a given ring (subsets closed under addition and absorbing multiplication)
