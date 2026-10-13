@@ -115,7 +115,7 @@ ring-field-checker/
 └── tests/
 ```
 
-##Limitations
+## Limitations
 
 - Classification assumes the *same* multiplicative identity check applies globally; it does
   not attempt to find a subring or handle a table where identity-like behavior only holds on
